@@ -1,0 +1,334 @@
+Date,Product,Sales Person,Boxes_Shipped,Amount,Country
+2/6/2022,Pain Relief Tablets,Divya Mehra,7,67.43,Australia
+2/5/2022,Antiseptic Cream,Nikhil Batra,18,421.46,Canada
+2/19/2022,Cough Syrup,Ritika Shah,2,48.25,UK
+3/28/2022,Pain Relief Tablets,Nikhil Batra,5,59.89,UK
+1/17/2022,Digestive Enzyme,Ritika Shah,8,147.73,USA
+2/9/2022,Digestive Enzyme,Ritika Shah,18,400.87,USA
+6/30/2022,Antiseptic Cream,Nikhil Batra,3,50.35,Australia
+7/25/2022,Eye Drops,Ritika Shah,13,282.43,USA
+3/20/2022,Nasal Spray,Priya Singh,17,394.01,UK
+1/24/2022,Antiseptic Cream,Sneha Iyer,7,89.29,Australia
+4/27/2022,Cough Syrup,Divya Mehra,11,150.73,Canada
+2/18/2022,Pain Relief Tablets,Ritika Shah,5,63.41,USA
+6/26/2022,Pain Relief Tablets,Divya Mehra,18,175.89,USA
+6/19/2022,Nasal Spray,Priya Singh,18,296.97,Australia
+6/3/2022,Cough Syrup,Ritika Shah,12,177.75,USA
+4/5/2022,Cough Syrup,Nikhil Batra,14,285.09,Canada
+4/17/2022,Pain Relief Tablets,Ritika Shah,12,277.22,Australia
+2/11/2022,Nasal Spray,Priya Singh,17,175.18,Canada
+1/18/2022,Antiseptic Cream,Ritika Shah,12,192.16,Australia
+5/30/2022,Allergy Pills,Nikhil Batra,9,123.12,India
+6/18/2022,Pain Relief Tablets,Divya Mehra,15,238.86,Australia
+7/6/2022,Eye Drops,Sneha Iyer,20,272.37,UK
+5/25/2022,Allergy Pills,Rajesh Patel,8,82.86,USA
+4/26/2022,Eye Drops,Aman Verma,19,447.21,India
+6/26/2022,Eye Drops,Priya Singh,1,9.98,Canada
+7/1/2022,Pain Relief Tablets,Rajesh Patel,5,101.4,India
+8/28/2022,Digestive Enzyme,Sneha Iyer,13,206.79,India
+7/8/2022,Allergy Pills,Aman Verma,11,153.08,UK
+2/3/2022,Digestive Enzyme,Aman Verma,18,411.44,USA
+3/17/2022,Allergy Pills,Rajesh Patel,5,46.92,Canada
+6/25/2022,Cough Syrup,Divya Mehra,3,42.85,UK
+6/11/2022,Eye Drops,Priya Singh,2,40.17,UK
+3/29/2022,Antiseptic Cream,Rajesh Patel,13,243.79,Canada
+3/26/2022,Antiseptic Cream,Priya Singh,2,44.86,UK
+7/15/2022,Digestive Enzyme,Nikhil Batra,19,288.4,UK
+7/16/2022,Cough Syrup,Aman Verma,9,137.02,India
+5/3/2022,Antiseptic Cream,Priya Singh,11,228.69,India
+6/17/2022,Digestive Enzyme,Rajesh Patel,14,287.53,USA
+4/13/2022,Digestive Enzyme,Rajesh Patel,14,294.16,Australia
+7/5/2022,Antiseptic Cream,Nikhil Batra,19,217.38,India
+8/6/2022,Cough Syrup,Divya Mehra,13,232.97,Canada
+5/25/2022,Antiseptic Cream,Ritika Shah,3,34.74,UK
+4/20/2022,Allergy Pills,Divya Mehra,7,152.23,USA
+5/15/2022,Nasal Spray,Aman Verma,11,197.71,UK
+1/7/2022,Allergy Pills,Divya Mehra,10,161.56,USA
+5/29/2022,Antiseptic Cream,Priya Singh,16,339.11,UK
+3/10/2022,Antiseptic Cream,Sneha Iyer,1,11.64,UK
+5/9/2022,Antiseptic Cream,Priya Singh,3,36.54,Australia
+7/11/2022,Cough Syrup,Sneha Iyer,16,163.57,USA
+4/11/2022,Cough Syrup,Priya Singh,11,221.08,India
+1/2/2022,Digestive Enzyme,Nikhil Batra,14,201.96,USA
+6/22/2022,Cough Syrup,Rajesh Patel,7,134.24,UK
+8/10/2022,Allergy Pills,Sneha Iyer,8,85.5,Canada
+1/2/2022,Pain Relief Tablets,Aman Verma,3,42.45,India
+7/3/2022,Nasal Spray,Aman Verma,4,43.61,UK
+3/21/2022,Digestive Enzyme,Rajesh Patel,7,134.53,UK
+4/16/2022,Pain Relief Tablets,Divya Mehra,7,141.33,USA
+8/26/2022,Cough Syrup,Nikhil Batra,18,336.53,UK
+4/22/2022,Nasal Spray,Rajesh Patel,20,470.78,Australia
+3/17/2022,Nasal Spray,Aman Verma,14,163.03,UK
+6/28/2022,Cough Syrup,Rajesh Patel,7,88.38,India
+6/15/2022,Eye Drops,Nikhil Batra,11,127.82,USA
+4/30/2022,Eye Drops,Priya Singh,2,30.78,Canada
+1/15/2022,Nasal Spray,Aman Verma,11,211.91,USA
+8/5/2022,Cough Syrup,Nikhil Batra,2,34.09,USA
+7/16/2022,Nasal Spray,Ritika Shah,9,158.69,India
+5/23/2022,Nasal Spray,Nikhil Batra,15,355.23,Canada
+4/19/2022,Antiseptic Cream,Ritika Shah,9,202.58,Canada
+8/5/2022,Allergy Pills,Nikhil Batra,10,245.9,USA
+8/31/2022,Nasal Spray,Ritika Shah,12,270.74,Australia
+8/23/2022,Eye Drops,Ritika Shah,5,88.84,India
+3/7/2022,Cough Syrup,Rajesh Patel,20,433.81,USA
+7/25/2022,Antiseptic Cream,Divya Mehra,2,29.63,Australia
+2/9/2022,Eye Drops,Rajesh Patel,15,334.05,Canada
+2/28/2022,Nasal Spray,Ritika Shah,4,52.1,India
+5/23/2022,Antiseptic Cream,Ritika Shah,6,51.97,UK
+7/31/2022,Antiseptic Cream,Priya Singh,14,324.2,USA
+5/26/2022,Nasal Spray,Aman Verma,9,155.31,UK
+2/25/2022,Nasal Spray,Priya Singh,13,205.85,UK
+4/5/2022,Pain Relief Tablets,Divya Mehra,4,64.28,UK
+6/21/2022,Allergy Pills,Priya Singh,1,8.09,India
+8/2/2022,Digestive Enzyme,Ritika Shah,10,213.75,Canada
+4/20/2022,Pain Relief Tablets,Rajesh Patel,18,244.76,India
+4/27/2022,Antiseptic Cream,Nikhil Batra,19,316.79,India
+6/30/2022,Allergy Pills,Nikhil Batra,20,219.72,USA
+3/7/2022,Digestive Enzyme,Ritika Shah,18,371.23,India
+5/21/2022,Digestive Enzyme,Priya Singh,12,242.44,USA
+7/3/2022,Cough Syrup,Priya Singh,18,214.09,UK
+3/13/2022,Antiseptic Cream,Aman Verma,20,183.48,India
+6/10/2022,Pain Relief Tablets,Rajesh Patel,11,272.97,Australia
+2/5/2022,Cough Syrup,Ritika Shah,13,129.3,UK
+5/23/2022,Digestive Enzyme,Ritika Shah,5,59.7,UK
+8/11/2022,Cough Syrup,Priya Singh,20,210.82,UK
+3/13/2022,Pain Relief Tablets,Divya Mehra,6,115.79,Canada
+6/6/2022,Antiseptic Cream,Rajesh Patel,18,322.41,UK
+7/20/2022,Antiseptic Cream,Divya Mehra,4,73.39,UK
+6/6/2022,Nasal Spray,Nikhil Batra,4,50.12,USA
+2/27/2022,Allergy Pills,Aman Verma,3,45.16,UK
+8/28/2022,Digestive Enzyme,Divya Mehra,16,212.81,Canada
+5/12/2022,Allergy Pills,Priya Singh,19,192.59,USA
+6/3/2022,Allergy Pills,Nikhil Batra,2,36.56,USA
+3/11/2022,Cough Syrup,Priya Singh,15,244.66,Canada
+5/28/2022,Digestive Enzyme,Sneha Iyer,17,281.12,UK
+1/10/2022,Nasal Spray,Aman Verma,19,161.95,UK
+1/21/2022,Pain Relief Tablets,Ritika Shah,9,180.5,Canada
+5/20/2022,Eye Drops,Nikhil Batra,18,426.02,UK
+7/9/2022,Allergy Pills,Priya Singh,10,101.77,USA
+6/19/2022,Eye Drops,Priya Singh,12,132.48,Canada
+5/31/2022,Eye Drops,Divya Mehra,9,82.8,Australia
+5/23/2022,Eye Drops,Priya Singh,1,8.51,Canada
+1/7/2022,Digestive Enzyme,Priya Singh,11,90.19,USA
+7/31/2022,Nasal Spray,Ritika Shah,6,60.03,UK
+5/24/2022,Nasal Spray,Sneha Iyer,8,142.54,India
+4/23/2022,Allergy Pills,Nikhil Batra,4,96.7,India
+3/18/2022,Allergy Pills,Ritika Shah,15,151.64,Australia
+8/25/2022,Antiseptic Cream,Divya Mehra,15,197.97,Canada
+3/4/2022,Allergy Pills,Divya Mehra,9,182.35,India
+3/24/2022,Digestive Enzyme,Divya Mehra,19,443.56,Canada
+3/27/2022,Antiseptic Cream,Rajesh Patel,9,89.01,Canada
+5/18/2022,Nasal Spray,Aman Verma,1,10.32,USA
+5/14/2022,Allergy Pills,Sneha Iyer,20,414.06,USA
+2/8/2022,Cough Syrup,Sneha Iyer,10,159.21,Australia
+2/20/2022,Eye Drops,Divya Mehra,18,195.1,Canada
+8/21/2022,Nasal Spray,Aman Verma,19,386.61,USA
+7/28/2022,Digestive Enzyme,Ritika Shah,1,22.99,USA
+5/29/2022,Cough Syrup,Priya Singh,17,290.44,UK
+5/19/2022,Pain Relief Tablets,Aman Verma,5,79.46,India
+8/14/2022,Eye Drops,Nikhil Batra,2,48.19,UK
+1/10/2022,Cough Syrup,Sneha Iyer,19,166.83,India
+4/3/2022,Digestive Enzyme,Rajesh Patel,3,40.32,USA
+6/27/2022,Allergy Pills,Rajesh Patel,15,176.45,USA
+3/26/2022,Antiseptic Cream,Nikhil Batra,1,9.4,UK
+1/29/2022,Allergy Pills,Rajesh Patel,11,176.73,Australia
+3/10/2022,Pain Relief Tablets,Divya Mehra,16,235.83,Canada
+2/8/2022,Digestive Enzyme,Aman Verma,11,106.76,Canada
+7/24/2022,Cough Syrup,Divya Mehra,12,100.6,USA
+3/22/2022,Nasal Spray,Rajesh Patel,11,214,Canada
+5/5/2022,Eye Drops,Nikhil Batra,13,315.98,India
+2/11/2022,Eye Drops,Priya Singh,1,13.06,India
+2/27/2022,Cough Syrup,Ritika Shah,3,44.25,India
+7/18/2022,Pain Relief Tablets,Ritika Shah,5,97.26,Canada
+7/29/2022,Antiseptic Cream,Rajesh Patel,20,380.27,Canada
+4/14/2022,Pain Relief Tablets,Rajesh Patel,9,79.13,UK
+6/23/2022,Eye Drops,Priya Singh,3,56.2,Australia
+6/5/2022,Nasal Spray,Priya Singh,7,156.92,Canada
+5/18/2022,Antiseptic Cream,Ritika Shah,13,187.47,India
+5/14/2022,Eye Drops,Divya Mehra,14,234.19,USA
+4/26/2022,Antiseptic Cream,Nikhil Batra,12,248.77,USA
+1/19/2022,Digestive Enzyme,Aman Verma,11,224.04,Canada
+5/6/2022,Digestive Enzyme,Aman Verma,8,88.55,Canada
+3/2/2022,Cough Syrup,Rajesh Patel,20,302.63,UK
+2/23/2022,Pain Relief Tablets,Divya Mehra,6,127.61,USA
+7/17/2022,Digestive Enzyme,Aman Verma,7,85.93,Canada
+4/1/2022,Cough Syrup,Sneha Iyer,9,112.85,USA
+8/2/2022,Allergy Pills,Nikhil Batra,2,18.27,USA
+8/1/2022,Eye Drops,Aman Verma,6,55.27,Australia
+6/26/2022,Digestive Enzyme,Rajesh Patel,11,186.86,India
+5/23/2022,Digestive Enzyme,Sneha Iyer,17,350.78,UK
+6/11/2022,Allergy Pills,Sneha Iyer,2,46.75,Australia
+5/24/2022,Digestive Enzyme,Ritika Shah,19,326.36,India
+5/23/2022,Eye Drops,Rajesh Patel,1,12.41,Australia
+5/9/2022,Eye Drops,Nikhil Batra,15,223.3,UK
+2/1/2022,Nasal Spray,Rajesh Patel,19,202.9,India
+8/1/2022,Pain Relief Tablets,Divya Mehra,3,56.22,USA
+8/23/2022,Digestive Enzyme,Aman Verma,10,246.29,Australia
+4/11/2022,Cough Syrup,Ritika Shah,18,329.35,India
+4/19/2022,Nasal Spray,Sneha Iyer,14,349.22,USA
+2/11/2022,Pain Relief Tablets,Rajesh Patel,15,268.43,Canada
+2/21/2022,Antiseptic Cream,Sneha Iyer,14,319.69,USA
+6/23/2022,Nasal Spray,Aman Verma,11,166.88,Australia
+5/5/2022,Pain Relief Tablets,Priya Singh,2,29.69,India
+4/24/2022,Allergy Pills,Nikhil Batra,13,193.09,Canada
+6/26/2022,Allergy Pills,Nikhil Batra,16,276.53,India
+8/21/2022,Pain Relief Tablets,Nikhil Batra,2,49.91,Australia
+6/25/2022,Digestive Enzyme,Aman Verma,16,131.88,Australia
+2/8/2022,Eye Drops,Rajesh Patel,16,306.63,Canada
+7/11/2022,Allergy Pills,Ritika Shah,8,162.67,Canada
+7/24/2022,Allergy Pills,Priya Singh,20,216.6,India
+5/28/2022,Antiseptic Cream,Nikhil Batra,20,427.81,USA
+5/25/2022,Nasal Spray,Priya Singh,5,79.49,Australia
+6/16/2022,Nasal Spray,Divya Mehra,16,300.37,UK
+2/18/2022,Eye Drops,Divya Mehra,3,73.09,Canada
+4/24/2022,Pain Relief Tablets,Priya Singh,11,125.38,USA
+5/18/2022,Antiseptic Cream,Nikhil Batra,15,155.48,USA
+7/14/2022,Cough Syrup,Ritika Shah,16,340.68,UK
+7/23/2022,Pain Relief Tablets,Divya Mehra,5,49.44,Australia
+7/2/2022,Antiseptic Cream,Rajesh Patel,14,344.7,USA
+7/6/2022,Eye Drops,Divya Mehra,5,95.03,Australia
+4/22/2022,Eye Drops,Sneha Iyer,3,52.4,USA
+4/26/2022,Nasal Spray,Nikhil Batra,5,106.94,USA
+3/25/2022,Antiseptic Cream,Priya Singh,5,94.04,USA
+1/6/2022,Eye Drops,Sneha Iyer,3,54.15,Canada
+4/30/2022,Allergy Pills,Ritika Shah,14,115.82,UK
+6/19/2022,Allergy Pills,Rajesh Patel,9,204,UK
+7/7/2022,Allergy Pills,Rajesh Patel,1,19.92,UK
+5/27/2022,Digestive Enzyme,Ritika Shah,12,151.09,Canada
+7/27/2022,Cough Syrup,Priya Singh,3,59.89,India
+5/31/2022,Eye Drops,Ritika Shah,15,363.94,Canada
+5/18/2022,Digestive Enzyme,Sneha Iyer,7,91.95,UK
+6/16/2022,Allergy Pills,Priya Singh,15,150.34,UK
+5/17/2022,Allergy Pills,Ritika Shah,17,180.65,Australia
+2/5/2022,Digestive Enzyme,Rajesh Patel,8,110.6,India
+4/14/2022,Pain Relief Tablets,Nikhil Batra,20,330.3,Australia
+7/1/2022,Cough Syrup,Aman Verma,8,93.83,USA
+1/11/2022,Antiseptic Cream,Divya Mehra,19,210.77,UK
+6/9/2022,Pain Relief Tablets,Ritika Shah,14,307.75,USA
+6/2/2022,Digestive Enzyme,Rajesh Patel,18,149.85,Australia
+7/9/2022,Allergy Pills,Aman Verma,20,176.04,UK
+7/10/2022,Eye Drops,Divya Mehra,8,102.72,USA
+8/6/2022,Cough Syrup,Priya Singh,18,224.44,Australia
+2/14/2022,Nasal Spray,Sneha Iyer,1,23.68,Australia
+5/4/2022,Allergy Pills,Divya Mehra,2,47.79,Australia
+8/17/2022,Antiseptic Cream,Priya Singh,10,154.6,India
+5/17/2022,Allergy Pills,Nikhil Batra,8,158.49,India
+8/2/2022,Nasal Spray,Sneha Iyer,7,68.99,India
+5/21/2022,Nasal Spray,Nikhil Batra,9,186.56,India
+6/21/2022,Cough Syrup,Aman Verma,2,36.61,Canada
+1/8/2022,Cough Syrup,Priya Singh,16,392.8,Australia
+6/11/2022,Allergy Pills,Ritika Shah,5,82.32,India
+4/8/2022,Nasal Spray,Nikhil Batra,6,128.69,UK
+8/4/2022,Pain Relief Tablets,Nikhil Batra,13,323.96,USA
+3/13/2022,Allergy Pills,Rajesh Patel,9,180.57,Australia
+8/25/2022,Antiseptic Cream,Rajesh Patel,18,229.15,UK
+8/19/2022,Pain Relief Tablets,Rajesh Patel,7,163.5,USA
+3/10/2022,Antiseptic Cream,Sneha Iyer,6,124.34,India
+2/21/2022,Allergy Pills,Rajesh Patel,5,64.33,UK
+5/4/2022,Antiseptic Cream,Divya Mehra,8,94.84,India
+1/19/2022,Digestive Enzyme,Priya Singh,18,432,Canada
+6/3/2022,Eye Drops,Aman Verma,19,368.72,USA
+7/9/2022,Allergy Pills,Nikhil Batra,20,486.94,India
+8/10/2022,Antiseptic Cream,Divya Mehra,13,320.79,India
+7/13/2022,Digestive Enzyme,Rajesh Patel,18,431.39,India
+2/25/2022,Nasal Spray,Sneha Iyer,4,67.5,UK
+7/27/2022,Eye Drops,Priya Singh,15,220.62,India
+8/13/2022,Eye Drops,Rajesh Patel,5,97.52,India
+8/27/2022,Antiseptic Cream,Nikhil Batra,6,112.49,USA
+3/18/2022,Antiseptic Cream,Aman Verma,2,45.57,Canada
+7/17/2022,Nasal Spray,Nikhil Batra,9,100.77,UK
+4/29/2022,Digestive Enzyme,Nikhil Batra,12,295.78,Australia
+6/7/2022,Digestive Enzyme,Rajesh Patel,17,381.45,UK
+1/31/2022,Allergy Pills,Divya Mehra,11,155.16,Canada
+5/31/2022,Digestive Enzyme,Ritika Shah,18,309.25,Australia
+6/5/2022,Pain Relief Tablets,Rajesh Patel,3,48.59,UK
+1/26/2022,Nasal Spray,Priya Singh,14,141.92,Canada
+8/25/2022,Cough Syrup,Aman Verma,4,67.94,USA
+1/14/2022,Nasal Spray,Nikhil Batra,13,289.57,USA
+3/23/2022,Allergy Pills,Sneha Iyer,19,335.15,Australia
+8/3/2022,Eye Drops,Aman Verma,6,88.2,India
+4/5/2022,Allergy Pills,Ritika Shah,2,47.92,Canada
+1/28/2022,Antiseptic Cream,Rajesh Patel,7,65.17,Australia
+1/16/2022,Eye Drops,Divya Mehra,3,27.98,USA
+2/21/2022,Allergy Pills,Aman Verma,8,197.83,USA
+3/2/2022,Nasal Spray,Nikhil Batra,11,204.72,Canada
+3/2/2022,Pain Relief Tablets,Divya Mehra,17,316.18,UK
+2/20/2022,Antiseptic Cream,Aman Verma,8,81.36,Australia
+3/13/2022,Pain Relief Tablets,Divya Mehra,18,315.74,India
+2/2/2022,Digestive Enzyme,Aman Verma,4,88.26,India
+7/20/2022,Pain Relief Tablets,Priya Singh,2,28.36,Canada
+5/3/2022,Cough Syrup,Nikhil Batra,9,138.31,Canada
+5/2/2022,Pain Relief Tablets,Aman Verma,18,260.35,USA
+6/25/2022,Cough Syrup,Priya Singh,13,227.31,UK
+8/25/2022,Allergy Pills,Rajesh Patel,16,130.5,Australia
+7/27/2022,Nasal Spray,Divya Mehra,4,86.5,USA
+8/26/2022,Eye Drops,Nikhil Batra,19,364.12,Australia
+5/13/2022,Eye Drops,Nikhil Batra,7,134.85,UK
+2/12/2022,Digestive Enzyme,Sneha Iyer,14,290.45,UK
+3/14/2022,Allergy Pills,Aman Verma,20,244.72,Canada
+6/11/2022,Antiseptic Cream,Divya Mehra,4,75.99,UK
+3/3/2022,Eye Drops,Priya Singh,13,318.33,USA
+1/7/2022,Eye Drops,Sneha Iyer,10,220.07,USA
+1/13/2022,Antiseptic Cream,Priya Singh,17,311.83,Canada
+1/27/2022,Antiseptic Cream,Aman Verma,12,158.5,India
+7/7/2022,Pain Relief Tablets,Rajesh Patel,5,57.11,Canada
+2/13/2022,Cough Syrup,Priya Singh,7,125.02,Australia
+4/8/2022,Cough Syrup,Rajesh Patel,20,494.08,USA
+7/2/2022,Antiseptic Cream,Priya Singh,17,374.2,Australia
+2/14/2022,Pain Relief Tablets,Nikhil Batra,15,312.47,Canada
+7/15/2022,Allergy Pills,Ritika Shah,16,371.27,India
+2/8/2022,Digestive Enzyme,Divya Mehra,2,49.7,UK
+2/16/2022,Eye Drops,Rajesh Patel,1,8.77,USA
+8/22/2022,Nasal Spray,Sneha Iyer,7,146.37,India
+5/15/2022,Digestive Enzyme,Ritika Shah,15,273.65,Canada
+7/15/2022,Allergy Pills,Aman Verma,14,185.36,USA
+3/2/2022,Eye Drops,Sneha Iyer,17,219.07,Canada
+1/7/2022,Allergy Pills,Aman Verma,12,134.44,UK
+2/11/2022,Eye Drops,Rajesh Patel,19,474.65,Australia
+2/5/2022,Eye Drops,Nikhil Batra,14,289.68,USA
+4/27/2022,Cough Syrup,Aman Verma,18,401.63,Australia
+3/16/2022,Nasal Spray,Aman Verma,12,123.89,USA
+7/17/2022,Cough Syrup,Sneha Iyer,7,140.54,UK
+7/24/2022,Antiseptic Cream,Priya Singh,10,209.65,USA
+1/18/2022,Eye Drops,Divya Mehra,2,33.09,UK
+7/24/2022,Allergy Pills,Ritika Shah,8,157.03,India
+7/26/2022,Antiseptic Cream,Priya Singh,1,17.67,India
+6/3/2022,Cough Syrup,Priya Singh,19,341.45,UK
+6/5/2022,Digestive Enzyme,Priya Singh,14,194.98,India
+8/12/2022,Pain Relief Tablets,Ritika Shah,8,78.79,Australia
+6/16/2022,Digestive Enzyme,Divya Mehra,14,131.03,India
+1/27/2022,Nasal Spray,Aman Verma,2,33.67,Canada
+6/4/2022,Cough Syrup,Priya Singh,5,41.09,Australia
+6/23/2022,Pain Relief Tablets,Ritika Shah,1,17.39,Canada
+7/14/2022,Antiseptic Cream,Rajesh Patel,18,364.2,India
+1/22/2022,Digestive Enzyme,Divya Mehra,6,68.21,UK
+7/22/2022,Digestive Enzyme,Sneha Iyer,20,479.93,Canada
+5/16/2022,Allergy Pills,Priya Singh,6,136.59,UK
+8/26/2022,Eye Drops,Rajesh Patel,2,45.31,USA
+3/9/2022,Antiseptic Cream,Rajesh Patel,11,246.17,Canada
+1/13/2022,Digestive Enzyme,Ritika Shah,15,362.44,Canada
+2/28/2022,Digestive Enzyme,Divya Mehra,7,133.38,UK
+4/27/2022,Eye Drops,Aman Verma,1,16.87,Canada
+2/3/2022,Nasal Spray,Divya Mehra,15,191.54,Canada
+2/21/2022,Antiseptic Cream,Nikhil Batra,2,26.91,India
+8/4/2022,Digestive Enzyme,Priya Singh,3,59.95,UK
+4/27/2022,Eye Drops,Nikhil Batra,14,183.32,India
+2/13/2022,Nasal Spray,Sneha Iyer,15,321.4,UK
+3/23/2022,Eye Drops,Rajesh Patel,2,31.15,USA
+5/6/2022,Nasal Spray,Rajesh Patel,8,89.9,India
+4/25/2022,Antiseptic Cream,Sneha Iyer,5,64.41,USA
+3/28/2022,Antiseptic Cream,Divya Mehra,20,186.45,Australia
+8/17/2022,Nasal Spray,Rajesh Patel,19,468.28,Australia
+8/29/2022,Pain Relief Tablets,Nikhil Batra,9,188.06,USA
+6/3/2022,Antiseptic Cream,Divya Mehra,4,48.71,Canada
+4/12/2022,Eye Drops,Sneha Iyer,18,161.49,Australia
+2/16/2022,Antiseptic Cream,Nikhil Batra,5,120.28,USA
+1/7/2022,Antiseptic Cream,Sneha Iyer,8,149.89,Canada
+8/6/2022,Nasal Spray,Rajesh Patel,9,128.33,Australia
+7/23/2022,Antiseptic Cream,Nikhil Batra,4,73.27,USA
+8/1/2022,Digestive Enzyme,Priya Singh,5,103.86,India
+2/8/2022,Digestive Enzyme,Sneha Iyer,15,302.46,UK
+8/28/2022,Allergy Pills,Aman Verma,3,52.5,India
+4/17/2022,Nasal Spray,Divya Mehra,5,65.67,UK
+1/5/2022,Eye Drops,Aman Verma,17,247.43,USA
+8/11/2022,Digestive Enzyme,Rajesh Patel,3,65.98,UK
