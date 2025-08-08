@@ -25,4 +25,4 @@ def user_input():
         'salary': [salary]
     })
 
-user_input()
+df = user_input()
