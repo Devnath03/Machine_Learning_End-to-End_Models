@@ -14,9 +14,10 @@ for episode in range(episodes+1):
     done = False
 
     while not done:
-        action = random.randint(0, actions-1)
-        next_state, reward, done, info = env.step(action)
-        state = next_state
+        env.render()
+        action = random.randint([0,1])
+        n_state, reward, terminated, truncated,info = env.step(action)
+        done = terminated or truncated
         score += reward
 
     print("Episode:", episode, "Score:", score)
