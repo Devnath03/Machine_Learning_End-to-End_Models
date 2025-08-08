@@ -20,10 +20,7 @@ def user_input():
     age = st.sidebar.slider('Age', 18, 70, 30)
     salary = st.sidebar.slider('Salary', 30000, 150000, 60000)
 
-    return pd.DataFrame({
-        'age': [age],
-        'salary': [salary]
-    })
+    return pd.DataFrame([[age, salary]], columns=['Age', 'Salary'])
 
 df = user_input()
 
@@ -38,3 +35,6 @@ prediction_proba = model.predict_proba(df)
 st.subheader('Predictions')
 purchase = np.array([['Not Purchased','Purchased']])
 st.write(purchase[prediction[0]])
+
+st.subheader('Prediction Probability')
+st.write(f'Purchased Probability: {prediction_proba[0][1]:.2f}')
