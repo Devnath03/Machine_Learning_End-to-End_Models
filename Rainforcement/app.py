@@ -26,3 +26,10 @@ def user_input():
     })
 
 df = user_input()
+
+#Display user input
+st.write('User Input:')
+st.write(df)
+
+# Make prediction
+prediction = model.predict(df)
