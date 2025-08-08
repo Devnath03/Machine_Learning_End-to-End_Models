@@ -107,4 +107,5 @@ try:
         st.warning("⚠ The dataset does not contain a 'Purchase Iphone' column for visualization.")
 except FileNotFoundError:
     st.info("ℹ No dataset file found for visualization. Upload 'iphone_purchase_records.csv' to enable charts.")
+    
 
