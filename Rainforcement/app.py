@@ -18,3 +18,5 @@ st.sidebar.header('User Input Features')
 #Create function to get inputs
 def user_input():
     age = st.sidebar.slider('Age', 18, 70, 30)
+    salary = st.sidebar.slider('Salary', 30000, 150000, 60000)
+user_input()
