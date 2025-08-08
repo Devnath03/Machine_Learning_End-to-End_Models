@@ -19,4 +19,10 @@ st.sidebar.header('User Input Features')
 def user_input():
     age = st.sidebar.slider('Age', 18, 70, 30)
     salary = st.sidebar.slider('Salary', 30000, 150000, 60000)
+
+    return pd.DataFrame({
+        'age': [age],
+        'salary': [salary]
+    })
+
 user_input()
