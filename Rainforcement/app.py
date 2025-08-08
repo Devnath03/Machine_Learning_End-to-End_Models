@@ -15,6 +15,6 @@ st.write('This is a machine learning model that predicts the likelihood of a cus
 #Create Sidebar
 st.sidebar.header('User Input Features')
 
-#Create function to get imputs
+#Create function to get inputs
 def user_input():
     age = st.sidebar.slider('Age', 18, 70, 30)
