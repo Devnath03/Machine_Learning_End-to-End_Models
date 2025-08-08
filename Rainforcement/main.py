@@ -20,5 +20,5 @@ for episode in range(episodes+1):
         done = terminated or truncated
         score += reward
 
-    print("Episode:", episode, "Score:", score)
-    env.close()
+    print(f"Episode: {episode}, Score: {score}")
+    
