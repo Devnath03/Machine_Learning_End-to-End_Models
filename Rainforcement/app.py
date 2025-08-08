@@ -37,4 +37,4 @@ purchase = np.array([['Not Purchased','Purchased']])
 st.write(purchase[prediction[0]])
 
 st.subheader('Prediction Probability')
-st.write(f'Purchased Probability: {prediction_proba[0][1]:.2f}')
+st.write(f'Purchased Probability: {prediction_proba[0][1]*100:.2f}')
