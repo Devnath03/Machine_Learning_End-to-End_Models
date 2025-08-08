@@ -12,5 +12,5 @@ st.title('I-Phone Purchase Prediction')
 #Add description
 st.write('This is a machine learning model that predicts the likelihood of a customer purchasing an iPhone based on various features.')
 
-#Create Slidebar
+#Create Sidebar
 st.sidebar.header('User Input Features')
