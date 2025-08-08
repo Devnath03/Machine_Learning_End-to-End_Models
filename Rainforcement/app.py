@@ -6,3 +6,6 @@ import joblib
 
 #Load the imported model
 model = joblib.load('model.joblib')
+
+#Add title
+st.title('I-Phone Purchase Prediction')
