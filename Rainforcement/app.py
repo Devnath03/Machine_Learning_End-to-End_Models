@@ -33,3 +33,5 @@ st.write(df)
 
 # Make prediction
 prediction = model.predict(df)
+st.write('Prediction:')
+st.write(prediction)
