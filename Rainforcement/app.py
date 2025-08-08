@@ -33,7 +33,7 @@ st.write(df)
 
 # Make prediction
 prediction = model.predict(df)
-
+prediction_proba = model.predict_proba(df)
 
 st.subheader('Predictions')
 purchase = np.array([['Not Purchased','Purchased']])
