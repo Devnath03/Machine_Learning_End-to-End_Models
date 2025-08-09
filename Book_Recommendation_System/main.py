@@ -4,3 +4,9 @@ import pickle
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import hstack, csc_matrix
+
+@st.cache_data()
+def load_model():
+    df = pd.read_pickle("Book_Recommend_Dataset.pkl")
+    
+#Save the Model
