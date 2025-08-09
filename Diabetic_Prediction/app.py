@@ -1,6 +1,8 @@
 #import libraries
 from flask import Flask,request, jsonify
+import joblib
 
+# Initialize Flask app
 app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def home():
