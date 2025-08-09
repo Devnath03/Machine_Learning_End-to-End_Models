@@ -33,3 +33,15 @@ text_feature = df.iloc[idx]['text']
 tfidf_feature  = tfidf.transform([text_feature])
 year = scaler.transform([[df.iloc[idx]['year']]])
 combined = hstack([tfidf_feature, csc_matrix(year)])
+
+distances, indices = model.kneighbors(combined)
+
+st.header("Recommendations")
+recommendations = []
+for i, (dist, idx) in enumerate(zip(distances[0], indices[0])):
+    recommendations.append((i + 1, df.iloc[idx]['title'], dist))
+
+for rank, title, dist in recommendations:
+    st.write(f"{rank}. {title} (Distance: {dist})")
+
+    
