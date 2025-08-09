@@ -17,3 +17,4 @@ def load_model():
 
 #Call the Function
 df, model, tfidf, scaler = load_model()
+
