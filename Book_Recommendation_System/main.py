@@ -6,6 +6,7 @@ import pickle           # For loading pre-trained models and objects
 import pandas as pd     # For handling data
 from sklearn.feature_extraction.text import TfidfVectorizer  # For text feature extraction
 from scipy.sparse import hstack, csc_matrix                  # For combining sparse matrices
+import matplotlib.pyplot as plt  # For plotting graphs
 
 # =========================
 # Function to Load Data and Models
@@ -49,22 +50,34 @@ book_title = st.selectbox("Select a book", book_title)
 # Generate Recommendations
 # =========================
 if book_title:
+    # Store selection history in session state
+    if "history" not in st.session_state:
+        st.session_state.history = []
+
+    # Add the selected book to history (avoid duplicates in a row)
+    if not st.session_state.history or st.session_state.history[-1] != book_title:
+        st.session_state.history.append(book_title)
+
+    # 🎈 Celebration effects
+    st.balloons()
+    st.snow()
+
     # Find the index of the selected book
     idx = title_to_idx[book_title]
 
-    # Extract the text description of the selected book
+    # Extract the text description
     text_feature = df.iloc[idx]['text']
 
-    # Transform the text into TF-IDF vector format
+    # TF-IDF transformation
     tfidf_feature = tfidf.transform([text_feature])
 
-    # Extract and scale the publication year feature
+    # Scale the year feature
     year = scaler.transform([[df.iloc[idx]['year']]])
 
-    # Combine text features and numerical year feature into a single sparse matrix
+    # Combine features
     combined = hstack([tfidf_feature, csc_matrix(year)])
 
-    # Use the trained KNN model to find nearest neighbors (similar books)
+    # Find nearest neighbors
     distances, indices = model.kneighbors(combined)
 
     # =========================
@@ -73,10 +86,32 @@ if book_title:
     st.header("📖 Recommended Books")
     recommendations = []
 
-    # Create a list of (rank, title, distance) tuples
     for i, (dist, idx) in enumerate(zip(distances[0], indices[0])):
         recommendations.append((i + 1, df.iloc[idx]['title'], dist))
 
-    # Display each recommended book
     for rank, title, dist in recommendations:
         st.write(f"{rank}. {title} (Similarity Distance: {dist:.4f})")
+
+    # =========================
+    # Show Book Selection History Graph
+    # =========================
+    st.subheader("📊 Your Book Selection History")
+
+    if st.session_state.history:
+        # Create a DataFrame for history
+        history_df = pd.DataFrame(st.session_state.history, columns=["Book"])
+        
+        # Count how many times each book was selected
+        count_df = history_df["Book"].value_counts().reset_index()
+        count_df.columns = ["Book", "Selections"]
+
+        # Plot using Matplotlib
+        fig, ax = plt.subplots()
+        ax.barh(count_df["Book"], count_df["Selections"], color="skyblue")
+        ax.set_xlabel("Number of Selections")
+        ax.set_ylabel("Book Title")
+        ax.set_title("Past Book Selections")
+
+        st.pyplot(fig)
+
+   
