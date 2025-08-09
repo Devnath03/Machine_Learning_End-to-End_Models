@@ -14,3 +14,6 @@ def load_model():
     tfidf = pickle.load(open('tfidf.pickle', 'rb'))
     scaler = pickle.load(open('scaler.pickle', 'rb'))
     return df, model, tfidf, scaler
+
+#Call the Function
+df, model, tfidf, scaler = load_model()
