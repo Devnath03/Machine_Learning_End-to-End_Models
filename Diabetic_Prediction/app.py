@@ -1,5 +1,5 @@
 #import libraries
-from flask import Flask,request, jsonify
+from flask import Flask,Request, jsonify
 import joblib
 
 # Initialize Flask app
@@ -10,14 +10,23 @@ scaler = joblib.load('scaler.pickle')
 
 @app.route('/test', methods=['POST'])
 def home():
-    try:
-      if request.is_json:
-        data = request.get_json()
-        features = scaler.transform([data['features']])
+    
+      if Request.is_json:
+        data = Request.get_json()
+        features = [
+            float(data['pregnancies']),
+            float(data['glucose']),
+            float(data['bloodPressure']),
+            float(data['skinThickness']),
+            float(data['insulin']),
+            float(data['bmi']),
+            float(data['diabetesPedigreeFunction']),
+            float(data['age'])
+        ]
+
+        features = scaler.transform([features])
         prediction = model.predict(features)
         return jsonify(prediction=prediction.tolist())
-    except Exception as e:
-        return jsonify(error=str(e)), 400
 
 if __name__ == '__main__':
     app.run(debug=True)
