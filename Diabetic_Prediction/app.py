@@ -10,7 +10,7 @@ scaler = joblib.load('scaler.pickle')
 
 @app.route('/test', methods=['POST'])
 def home():
-    
+    try:
       if Request.is_json:
         data = Request.get_json()
         features = [
@@ -27,6 +27,9 @@ def home():
         features = scaler.transform([features])
         prediction = model.predict(features)
         return jsonify(prediction=prediction.tolist())
+        
+    except Exception as e:
+            return jsonify(error=str(e)), 400
 
 if __name__ == '__main__':
     app.run(debug=True)
