@@ -52,10 +52,4 @@ st.title("Book Recommendation System")
 
 selected_title = st.selectbox("Select a book title", title)
 
-if st.button("Recommend"):
-    # Get recommendations
-    recommendations = pipeline.predict([selected_title])
-    st.write("Recommended books:")
-    for rec in recommendations:
-        st.write(f"- {rec}")
-
+book_index = data[data['title'] == selected_title].index[0]
