@@ -1,3 +1,4 @@
+##This file consider when run the model in the General method, and also  via this file execute the model called knn_model.pickle
 # =========================
 # Import Required Libraries
 # =========================
