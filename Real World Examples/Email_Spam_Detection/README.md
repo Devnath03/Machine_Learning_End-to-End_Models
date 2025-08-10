@@ -1,5 +1,6 @@
 # Email Spam Detection System
 
+# Overview
 This project provides a robust, real-world example of using machine learning to detect spam emails. It is designed to meet global standards for reproducibility, clarity, and practical application, making it suitable for both beginners and advanced users.
 
 ## Project Overview
