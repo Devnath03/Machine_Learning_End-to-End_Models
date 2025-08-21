@@ -1,4 +1,3 @@
-
 # Advanced Machine Learning Models
 
 This folder is created as a complete guide for anyone interested in learning machine learning, especially beginners. It is organized to help you progress from basic concepts to advanced topics, using real-world business and educational datasets. Each section introduces a key area of machine learning, with practical examples, sample data, and step-by-step Jupyter notebooks. 
